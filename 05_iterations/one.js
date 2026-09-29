@@ -22,14 +22,12 @@
 // break and continue
 
 for (let index = 1; index < 20; index++) {
-    console.log(`value of i is ${index}`);
+    
     if(index==5){
         console.log(`detected ${index}`);
         
         break;
-    }else{
-        continue
     }
-    
-    
+    console.log(`value of i is ${index}`);
+        
 }

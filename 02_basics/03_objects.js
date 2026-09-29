@@ -34,6 +34,16 @@ const course = {
 
 const {courseInstructor: instructor} = course
 // console.log(courseInstructor);
-console.log(instructor);
+// console.log(instructor);
+
+/* JSON API intro */
+// how to write JSON
+// {
+//     "any": "mayank",
+//     "coursename": "js tutorial",
+//     "price": 9999999,
+// }
+
+
 
 

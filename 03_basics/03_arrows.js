@@ -43,8 +43,10 @@ const user = {
 // }
 //explicit return function
 
-const addTwo = (num1, num2) => (num1+num2) //implicit return function, can be written without return
+// const addTwo = (num1, num2) => (num1+num2) //implicit return function, can be written without return
 
-const addTwo = (num1, num2) => ({username: 'hitesh'}) 
-console.log((addTwo(3,4)));
+// const addTwo = (num1, num2) => ({username: 'hitesh'}) 
+// console.log((addTwo(3,4)));
+
+
 

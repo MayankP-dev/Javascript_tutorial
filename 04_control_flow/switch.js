@@ -5,28 +5,28 @@
 //         break;
 // }
 
-const month=3
+// const month=3
 
-switch (month) {
-    case 1:
-        console.log("Jan");
+// switch (month) {
+//     case 1:
+//         console.log("Jan");
         
-        break;
-    case 2:
-        console.log("Feb");
+//         break;
+//     case 2:
+//         console.log("Feb");
         
-        break;
-    case 3:
-        console.log("Mar");
+//         break;
+//     case 3:
+//         console.log("Mar");
         
-        break;
-    case 4:
-        console.log("Apr");
+//         break;
+//     case 4:
+//         console.log("Apr");
         
-        break;
+//         break;
 
-    default:
-        console.log("default");
+//     default:
+//         console.log("default");
         
-        break;
-}
+//         break;
+// }

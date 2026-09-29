@@ -18,4 +18,9 @@
 
 let myName = "maks"
 let anotherName = myName
-console.log(anotherName);
+anotherName = "Mayank"
+console.log(anotherName); //prints Mayank
+console.log(myName); //prints maks
+
+
+

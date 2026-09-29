@@ -1,12 +1,12 @@
-const userEmail = "mayank.ai"
+// const userEmail = "mayank.ai"
 
-if(userEmail){
-    console.log("Got user email");
+// if(userEmail){
+//     console.log("Got user email");
     
-}else{
-    console.log("dont have email");
+// }else{
+//     console.log("dont have email");
     
-}
+// }
 
 // Falsy values
 // false, 0, -0, BigInt 0n, "", null, undefined, NaN(not a number)
@@ -28,6 +28,6 @@ if(userEmail){
 
 // condition ? true : false
 
-const iceTeaPrice = 100
-iceTeaPrice >= 80 ? console.log("less than 80") : console.log("more than 80")
+// const iceTeaPrice = 100
+// iceTeaPrice >= 80 ? console.log("less than 80") : console.log("more than 80")
 
