@@ -7,24 +7,45 @@
 
 .color-container{
     display: flex;
-    justify-content: center;
+    flex-direction: row;
     gap: 4px;
-}
-
-.h2{
-    display: flex;
+    text-align: center;
     justify-content: center;
 }
 
-.p{
+nav{
     display: flex;
     justify-content: center;
+    gap: 5px;
+    background-color: lightgrey;
+    padding: 10px;
+    border-bottom: 2px solid grey;
 }
 
+.btn-link{
+    padding: 5px 10px;
+    border: 2px solid black;
+    background-color: beige;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    
+}
 
+body{
+    text-align: center;
+}
 
 #grey{
     background-color: grey;
+}
+
+#home{
+    background-color: lightcyan;
+}
+
+#yt{
+    background-color: white;
 }
 
 #white{
