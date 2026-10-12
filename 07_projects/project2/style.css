@@ -31,10 +31,17 @@ body{
     text-align: center;
 }
 
-#calculate{
+/* #calculate{
     background-color: white;
     padding: 5px;
     margin: 5px;
     border-radius: 5px;
     
+} */
+
+button{
+    background-color: white;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
 }
