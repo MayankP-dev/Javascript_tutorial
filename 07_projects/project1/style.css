@@ -1,8 +1,6 @@
-.color-box{
-    border: 2px solid black;
-    width: 50px;
-    height: 50px;
-    
+*{
+    padding:0;
+    margin:0;
 }
 
 .color-container{
@@ -11,8 +9,15 @@
     gap: 4px;
     text-align: center;
     justify-content: center;
+
 }
 
+.button{
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    
+}
 nav{
     display: flex;
     justify-content: center;
@@ -33,8 +38,10 @@ nav{
 }
 
 body{
+    /* color: white; */
     text-align: center;
 }
+
 
 #grey{
     background-color: grey;
