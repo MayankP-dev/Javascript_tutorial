@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Color-Selector</title>
+    <title>Guess Number</title>
     <link rel="stylesheet" href="style.css">
      
 </head>
@@ -19,13 +19,17 @@
         <p>You have 10 attempts to guess the right number.</p>
 
         <div id="number">
-            <h1>Guess a number</h1>
-            <form>
-                <input class="number"><br><br>
-                <button type="button">Submit guess</button>
+            
+            <form class="form">
+                <label for="guessField" id="guess">Guess a number</label><br>
+                <input type="text" id="guessField" class="guessField"><br>
+                <input type="submit" id="subt" value="Submit guess" class="guessSubmit">
             </form>
-            <span>Previous guesses: </span><br>
-            <span>Guesses remaining: </span>
+            <div class="resultParas">
+                <p>Previous guesses: <span class="guesses"></span></p>
+                <p>Guesses remaining: <span class="lastResult">10</span></p>
+                <p class="lowOrHi"></p>
+            </div>
         </div>
     </div>
     <script src="p4_scripts.js"></script>

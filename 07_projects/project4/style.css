@@ -31,14 +31,25 @@
             background-color: #4e4e4d;
             padding-bottom: 40px;
             margin-inline: 30px;
+
             
         }
 
-        button{
+        #subt{
             background-color: #212121;
             color: white;
             padding: 10px;
             border-radius: 10px;
         }
+
+        #number{
+            padding: 30px;
+        }
+
+        #guess{
+            font-size: xx-large;
+            font-weight: bold;
+        }
+        
     
         
